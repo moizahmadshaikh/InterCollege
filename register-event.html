@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>College Website - Register Event</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register Event</h1>
+      <form>
+        <div class="form-group">
+          <label for="event-name">Event Name:</label>
+          <select class="form-control" id="event-name" name="event-name">
+            <option value="event1">Event 1</option>
+            <option value="event2">Event 2</option>
+            <option value="event3">Event 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="participant-name">Participant Name:</label>
+          <input type="text" class="form-control" id="participant-name" name="participant-name">
+        </div>
+        <div class="form-group">
+          <label for="participant-email">Participant Email:</label>
+          <input type="email" class="form-control" id="participant-email" name="participant-email">
+        </div>
+        <div class="form-group">
+          <label for="participant-phone">Participant Phone:</label>
+          <input type="tel" class="form-control" id="participant-phone" name="participant-phone">
+        </div>
+        <div class="form-group">
+          <label for="participant-address">Participant Address:</label>
+          <textarea class="form-control" id="participant-address" name="participant-address"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="payment-amount">Payment Amount:</label>
+          <input type="number" class="form-control" id="payment-amount" name="payment-amount">
+        </div>
+        <button type="submit" class="btn btn-primary">Register Event</button>
+      </form>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
